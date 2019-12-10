@@ -6,7 +6,7 @@ support must be enabled for your PHP interpretor:
 
 For windows, this means adding:
 extension=php_soap.dll
-exetnsion=php_openssl.dll
+extension=php_openssl.dll
  
 For *nix, it will probably be necessary to recompile your PHP interpretor with
 these things enabled.
@@ -27,8 +27,8 @@ Changes required to resolve QB Issue 1150
 
 
 5.4.0.1 - 26th May 2009
-AvaTax.php- Issue 10523 - the use of ‘\’ in file paths is causing the autoload function to fail on *nix.
-			Modifying to use ‘/’ instead seems to work fine on both *nix and Windows.
+AvaTax.php- Issue 10523 - the use of â€˜\â€™ in file paths is causing the autoload function to fail on *nix.
+			Modifying to use â€˜/â€™ instead seems to work fine on both *nix and Windows.
 
 5.4.0.0 - 05th May 2009
 ATConfig.php - Updated adpater version to 5.4.0.0
